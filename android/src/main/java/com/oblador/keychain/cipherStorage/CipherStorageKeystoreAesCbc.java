@@ -71,7 +71,7 @@ public class CipherStorageKeystoreAesCbc extends CipherStorageBase {
   /** Biometry is Not Supported. */
   @Override
   public boolean isBiometrySupported() {
-    return false;
+    return true;
   }
 
   /** AES. */
